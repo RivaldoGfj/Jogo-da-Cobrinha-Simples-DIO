@@ -1,0 +1,20 @@
+
+body {
+    height :  95 vh ;
+    width:  125 vw ;
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center;
+    background-image: url(./fundo-cobras.gif);
+}
+canvas.snake {
+    border: 1px solid black;
+}
+
+.titulo {
+    font-family: 'Pacifico', cursiva;
+    font-size: 60px;
+    color:rgb(2, 169, 247);
+    text-shadow: 4px 3px 2px black;
+}
